@@ -4,8 +4,8 @@
 vector<string> numbers;
 
 //Prototype Functions Here
-void initialize_numbers();
 int get_number();
+void initialize_numbers();
 
 
 int main()
@@ -81,20 +81,6 @@ catch (...) {
 	cout << "exiting\n";
 	keep_window_open("~");
 }
-//method to initialize the numbers from 'zero' to 'ten'
-void initialize_numbers(){
-	numbers.push_back("zero");
-	numbers.push_back("one");
-	numbers.push_back("two");
-	numbers.push_back("three");
-	numbers.push_back("four");
-	numbers.push_back("five");
-	numbers.push_back("six");
-	numbers.push_back("seven");
-	numbers.push_back("eight");
-	numbers.push_back("nine");
-	numbers.push_back("ten");
-}
 //method to get the number entered by the user
 int get_number(){
     //declare variables here
@@ -126,4 +112,18 @@ int get_number(){
     }
     //return value
 	return value;
+}
+//method to initialize the numbers from 'zero' to 'ten'
+void initialize_numbers(){
+	numbers.push_back("zero");
+	numbers.push_back("one");
+	numbers.push_back("two");
+	numbers.push_back("three");
+	numbers.push_back("four");
+	numbers.push_back("five");
+	numbers.push_back("six");
+	numbers.push_back("seven");
+	numbers.push_back("eight");
+	numbers.push_back("nine");
+	numbers.push_back("ten");
 }
